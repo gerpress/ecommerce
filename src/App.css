@@ -2,6 +2,71 @@
   text-align: center;
 }
 
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerNav {
+  width: 90%;
+  margin: auto;
+  max-width: 1370px;
+}
+
+.NavLink {
+  margin-left: 15px;
+  border: none;
+  background-color: #9cced4;
+  border-radius: 10px;
+  padding: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 90%;
+  margin: 0 0 0 1.5rem;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CardItem {
+  margin: 5rem;
+}
+
+.col {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+  max-width: 100%;
+  height: 10rem;
+}
+
+.NavLink:hover {
+  opacity: 0.65;
+}
+
+.iconoCarrito {
+  background-color: #9cced4;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.carrito {
+  padding: 5px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
