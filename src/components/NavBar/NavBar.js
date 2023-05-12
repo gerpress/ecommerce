@@ -8,10 +8,15 @@ const NavBar = () => {
         <Link to="/">
           <h3>AvtiveSports</h3>
         </Link>
-        <div>
-          <NavLink to={"/sobre Nosotros"} className={({ isActive }) => (isActive ? "ActiveOption" : "Option")} />
+        <div className="NavLink">
+          <NavLink to={"/category/proteinas"} className={({ isActive }) => (isActive ? "ActiveOption" : "Option")}>
+            Proteinas
+          </NavLink>
+          <NavLink to={"/category/creatinas"} className={({ isActive }) => (isActive ? "ActiveOption" : "Option")}>
+            Creatinas
+          </NavLink>
+          <CartWidgets />
         </div>
-        <CartWidgets />
       </nav>
     </div>
   );

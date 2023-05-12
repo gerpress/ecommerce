@@ -14,12 +14,16 @@
   max-width: 1370px;
 }
 
-.NavLink {
+.Button {
+  background-color: #9cced4;
+  margin: 3px;
+}
+
+.Option {
   margin-left: 15px;
   border: none;
-  background-color: #9cced4;
   border-radius: 10px;
-  padding: 12px;
+  padding: 40px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 600;
